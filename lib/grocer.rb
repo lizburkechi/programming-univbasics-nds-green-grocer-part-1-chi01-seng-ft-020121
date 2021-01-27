@@ -10,9 +10,10 @@ while counter < collection.length
 end
 
 def consolidate_cart(cart)
-  # Consult README for inputs and outputs
-  #
-  # REMEMBER: This returns a new Array that represents the cart. Don't merely
-  # change `cart` (i.e. mutate) it. It's easier to return a new thing.
-
+  new_cart = []
+  counter = 0
+  while counter < cart.length
+       expect(consolidated_cart[i][:count]).to eq(1)
+       i += 1
+     end
 end
